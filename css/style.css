@@ -138,8 +138,8 @@ img {
        display: block;
     }
     .col{
-        max-width: 300px;
         margin: auto;
+       
     }
 
 }
