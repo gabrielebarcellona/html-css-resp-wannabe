@@ -129,7 +129,7 @@ img {
  ************************************************/
 
 .container{
-    width: auto;
+    width: 100%;
 }
 
 @media screen and (max-width:480px) {
@@ -137,9 +137,11 @@ img {
     .row{
        display: block;
     }
-    .col{
-        margin: auto;
-       
+     .lessons .col,
+     .steps .col,
+     .why-us .col-left,
+     .why-us .col-right{
+        width: 100%;   
     }
 
 }
